@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Endpoint(id = "custom")
 public class CustomActuator1 {
-
+// this is an actuator
     @ReadOperation
     public String customActuator(){
         return "This is my custom actuator";
